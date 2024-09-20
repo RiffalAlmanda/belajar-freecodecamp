@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    width: 200px;
+    float: left;
+  }
+  
+  #main-doc {
+    margin-left: 220px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    #navbar {
+      width: 100%;
+      float: none;
+    }
+  
+    #main-doc {
+      margin-left: 0;
+    }
+  }

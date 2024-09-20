@@ -1,0 +1,14 @@
+#nav-bar {
+    top: 0;
+    position: fixed;
+  }
+  
+  #pricing {
+    display: flex;
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
